@@ -14,7 +14,7 @@
 	<arg name="sim" default="false"/>
 	<arg name="publish_voxel_map" default="false"/>
 	<arg name="slam" default="false"/>
-		
+	
 	<!-- Run move_base -->
 	<node pkg="move_base" type="move_base" respawn="false" name="move_base">
 		<rosparam file="$(find icclab_summit_xl)/config/move_base_params.yaml" command="load" />
